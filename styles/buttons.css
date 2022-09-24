@@ -1,0 +1,18 @@
+button {
+    box-sizing: border-box;
+    cursor: pointer;
+    max-height: 28px;
+    height: 100%;
+}
+
+.submitType {
+    background: var(--color-brand-1);
+    border: 2px solid #4263EB;
+    border-radius: 4px;
+}
+
+.eventButton {
+    color: var(--color-grey-1);
+    border: 1px solid #212529;
+    border-radius: 2px;
+}

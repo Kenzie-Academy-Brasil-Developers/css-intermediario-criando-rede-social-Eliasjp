@@ -1,0 +1,18 @@
+.userInfo {
+    width: 100%;
+    display: flex;
+}
+
+.userInfo > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+
+figure.userImg {
+    width: 52px;
+    height: 52px;
+    overflow: hidden;
+    border-radius: 100%;
+}

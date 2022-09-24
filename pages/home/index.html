@@ -1,19 +1,128 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
   <head>
+    
     <meta charset="UTF-8" />
+   
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/globalStyles.css" />
-    <link rel="stylesheet" href="style.css" />
+
+    <!-- Global CSS -->
+    
+    <link rel="stylesheet" href="/styles/globalStyles.css"/>
+
+    <link rel="stylesheet" href="/styles/titles.css"/>
+    
+    <link rel="stylesheet" href="/styles/texts.css"/>
+    
+    <link rel="stylesheet" href="/styles/navbar.css"/>
+
+    <link rel="stylesheet" href="/styles/userInfo.css"/>
+    
+    <link rel="stylesheet" href="/styles/buttons.css"/>
+
+    <!-- Local CSS -->
+    
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/sendPost.css" />
+
+    <link rel="stylesheet" href="css/aside.css" />
+
+    <link rel="stylesheet" href="css/post.css" />
+
+    <link rel="stylesheet" href="css/modal.css" />
+    
+    <link rel="stylesheet" href="css/media.css" />
+    
+    <link rel="stylesheet" href="css/toggles.css" />
+
+    <!-- Scripts -->
+
+    <script defer src="/script/database/users.js"></script>
+    
+    <script defer src="/script/database/posts.js"></script>
+    
+    <script defer src="/script/database/sugestUsers.js"></script>
+    
+    <script defer src="javascript/createPost.js"></script>
+    
+    <script defer src="javascript/aside.js"></script>
+    
+    <script defer src="javascript/toggle.js"></script>
+    
+    <script defer src="javascript/modal.js"></script>
+
     <title>TechPosters - Home</title>
+
   </head>
+  
   <body>
-    <header></header>
-    <main></main>
+    
+    <header class="navbar">
+
+      <h1><img src="/assets/img/logo.svg"></h1>
+      
+      <nav class="navbar-items">
+      
+        <a href="../login/index.html" target="_self" class="navbar-link exitAnchor">Sair</a>
+
+      </nav>
+
+    </header>
+    
+    <div class="conteiner">
+
+        <section class="sendPost">
+
+          <div class="userInfo">
+
+            <figure class="userImg">
+              <img src="/assets/img/user1.svg" alt="user">
+            </figure>
+
+            <div class="nameOcupation">
+
+              <h2 class="nameUser">Placeholder</h2>
+
+              <small class="ocupation">placeholder ocupation</small>
+
+            </div>
+
+          </div>
+
+          <form id="sendPost">
+
+            <input class="postTitle" type="text" placeholder="Digitar título do post"></input>
+
+            <input class="postDescription" type="text" placeholder="Digitar descrição do post"></input>
+
+          </form>
+
+          <button form="sendPost" type="submit" class="submitPost submitType">Postar</button>
+
+        </section>
+
+      <aside class="folllowUser">
+
+        <h2>Sugestões para você seguir</h2>
+
+        <div class="allFollowUserConteiner">
+
+        </div>
+
+      </aside>
+
+    </div>
+
+    <main class="postArea">
+
+      <h1>Post</h1>
+
+    </main>
+  
   </body>
-  <script src="/script/database/users.js"></script>
-  <script src="/script/database/posts.js"></script>
-  <script src="/script/database/sugestUsers.js"></script>
-  <script src="index.js"></script>
+
 </html>

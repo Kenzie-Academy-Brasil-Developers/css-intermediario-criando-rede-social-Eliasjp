@@ -1,0 +1,21 @@
+aside {
+    width: 421px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.followConteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+button.followButton {
+    max-width: 89px;
+    height: 28px;
+    color: var(--color-grey-1);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5.5px 12px;
+}

@@ -1,0 +1,6 @@
+button.toggledButton {
+    background-color: var(--color-brand-1);
+    font-size: 14px;
+    border: 1px solid #4263EB;
+    color: var(--color-white-fixed);
+}
