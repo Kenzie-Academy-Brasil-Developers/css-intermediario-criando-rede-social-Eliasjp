@@ -54,7 +54,7 @@ function createPost (){
         
         let imgLike = document.createElement(`img`)
             imgLike.classList = `heartLike`
-            imgLike.src = `../../assets/img/heart.svg`
+            imgLike.src = `assets/img/heart.svg`
             imgLike.alt = `Like button`
         
         let queryMain = document.querySelector(`.postArea`)

@@ -19,9 +19,9 @@ function toggleLike () {
     for (i = 0; i < queryButton.length; i++){
         queryButton[i].addEventListener(`click`, function (event){
             if (event.target.src.includes(`heart.svg`)){
-                event.target.src = `../../assets/img/heartFocus.svg`
+                event.target.src = `assets/img/heartFocus.svg`
             } else {
-                event.target.src = `../../assets/img/heart.svg`
+                event.target.src = `assets/img/heart.svg`
             }
         })
     }
